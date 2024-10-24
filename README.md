@@ -8,6 +8,8 @@
 
 ## Getting Started
 
+-    make a copy `.env`file as `.env.local` and insert tatum API key 
+
 -   `npm run dev` - Starts a dev server at http://localhost:5173/
 
 -   `npm run build` - Builds for production, emitting to `dist/`
