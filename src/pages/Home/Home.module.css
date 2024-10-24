@@ -1,0 +1,7 @@
+.image {
+	margin-bottom: 1.5rem;
+}
+
+.image:hover {
+	filter: drop-shadow(0 0 2em #673ab8aa);
+}

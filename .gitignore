@@ -1,0 +1,12 @@
+build
+dist
+node_modules
+yarn-error.log
+npm-debug.log
+.DS_Store
+.env.local
+.eslintcache
+.vscode
+jest-error.log
+.idea
+tsconfig.tsbuildinfo
