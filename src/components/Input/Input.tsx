@@ -18,7 +18,11 @@ const Input = forwardRef(({ error, ...restProps }: Props, ref) => {
         placeholder="Enter ETH wallet address to get balance"
         {...restProps}
       />
-      {error && <Error message={error.message} />}
+      {error && (
+        <div className={classes.error}>
+          <Error message={error.message} />
+        </div>
+      )}
     </div>
   )
 })

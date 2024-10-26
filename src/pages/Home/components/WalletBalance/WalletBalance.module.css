@@ -1,5 +1,19 @@
 .container {
-	max-width: 481px;
+	position: relative;
+	width: 481px;
 	display: flex;
 	flex-direction: column;
+}
+
+@media (max-width: 639px) {
+	.container {
+		width: 100%;
+		min-width: 280px;
+	}
+
+	.error {
+		position: absolute;
+		left: 0;
+		bottom: -25px;
+	}
 }

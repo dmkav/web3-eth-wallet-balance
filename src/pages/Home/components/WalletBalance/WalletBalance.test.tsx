@@ -45,7 +45,7 @@ describe('WalletBalance component', () => {
     expect(button).toBeDisabled()
 
     expect(screen.getByRole('textbox')).toBeVisible()
-    expect(screen.getByRole<HTMLInputElement>('textbox').value).toEqual('')
+    expect((screen.getByRole('textbox') as HTMLInputElement).value).toEqual('')
   })
 
   test('displays error when balance fetch fails', async () => {
